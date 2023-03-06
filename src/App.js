@@ -4,7 +4,6 @@ import Home from './components/home/Home';
 import About from './components/about/About';
 import Services from './components/services/Services';
 import Portfolio from './components/portfolio/Portfolio';
-import Test from './components/services/Test';
 import Sessions from './components/sessions/Sessions';
 import ValueProposition from './components/proposition/ValueProposition';
 import Contact from './components/contact/Contact';
