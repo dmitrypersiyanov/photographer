@@ -1,4 +1,8 @@
 @font-face {
-    font-family: "Dreamland-0vWd";   /*Can be any text*/
-    src: url('./fonts/Dreamland-0vWd.ttf');
-  }
+  font-family: "Dreamland-0vWd"; /*Can be any text*/
+  src: url("./fonts/Dreamland-0vWd.ttf");
+}
+@font-face {
+  font-family: "GreatVibes-Regular"; /*Can be any text*/
+  src: url("./fonts/GreatVibes-Regular.ttf");
+}
