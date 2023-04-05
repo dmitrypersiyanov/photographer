@@ -5,35 +5,18 @@ import Accordion from "./Accordion";
 const Faq = () => {
   return (
     <>
-      <div className="w-full px-20 pt-20 md:pt-40 md:pb-40 bg-darkest">
-        <h2 className="text-fancy text-4xl font-bold md:text-center text-left mb-12">
+      <div
+        id="faq"
+        className="w-full px-5 md:px-20 lg:px-20 pt-20 pb-24 md:pt-24 md:pb-32 bg-darkest"
+      >
+        <h2 className="text-fancy text-4xl font-bold md:text-center text-left mb-12 pr-10">
           Frequently asked questions
         </h2>
-        <div className="w-[700px] mx-auto overflow-hidden grid grid-cols-1 gap-7">
+        <div className="w-full lg:w-[700px] mx-auto overflow-hidden grid grid-cols-1 gap-5 sm:gap-7">
           {accordionData.map((item, index) => {
             return <Accordion key={index} {...item} />;
           })}
         </div>
-      </div>
-      <div className="w-full max-w-full bg-yellow-400 text-lg font-semibold overflow-hidden whitespace-nowrap gap-6 flex">
-        <span>BOOK YOUR SESSION NOW!</span>
-        <span>BOOK YOUR SESSION NOW!</span>
-        <span>BOOK YOUR SESSION NOW!</span>
-        <span>BOOK YOUR SESSION NOW!</span>
-        <span>BOOK YOUR SESSION NOW!</span>
-        <span>BOOK YOUR SESSION NOW!</span>
-        <span>BOOK YOUR SESSION NOW!</span>
-        <span>BOOK YOUR SESSION NOW!</span>
-        <span>BOOK YOUR SESSION NOW!</span>
-        <span>BOOK YOUR SESSION NOW!</span>
-        <span>BOOK YOUR SESSION NOW!</span>
-        <span>BOOK YOUR SESSION NOW!</span>
-        <span>BOOK YOUR SESSION NOW!</span>
-        <span>BOOK YOUR SESSION NOW!</span>
-        <span>BOOK YOUR SESSION NOW!</span>
-        <span>BOOK YOUR SESSION NOW!</span>
-        <span>BOOK YOUR SESSION NOW!</span>
-        {/* GREENYELLOW GREENYELLOW GREENYELLOW GREENYELLOW GREENYELLOW GREENYELLOW GREENYELLOW GREENYELLOW GREENYELLOW */}
       </div>
     </>
   );

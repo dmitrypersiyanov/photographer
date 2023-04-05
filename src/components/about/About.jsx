@@ -33,39 +33,38 @@ const About = () => {
   return (
     <div
       id="about"
-      className=" bg-darkest z-20 w-full flex relative justify-center overflow-hidden items-center py-20 md:pt-60 md:pb-60"
+      className=" bg-darkest z-20 w-full flex relative justify-center overflow-hidden items-center py-20 md:pt-40 md:pb-40"
     >
-      <div className="absolute left-0 top-0 bottom-0 -right-[50%] bg-darkless -rotate-[230deg] -z-20"></div>
+      {/* <div className="absolute left-0 top-0 bottom-0 -right-[50%] bg-darkless -rotate-[230deg] -z-20"></div> */}
       <motion.div
         ref={ref}
         initial="hidden"
         variants={aboutVariants}
         animate={control}
-        className="w-[80%] max-w-6xl px-0 py-0 flex flex-col relative box-border shadow-glow rounded-lg"
+        className="w-[85%] sm:w-[80%] max-w-6xl px-0 py-0 flex flex-col relative box-border shadow-glow rounded-lg"
       >
-        <img
-          className=" sm:absolute -bottom-16 -z-10 -left-16 w-72"
+        {/* <img
+          className="sm:absolute -bottom-16 -z-10 -left-16 w-72"
           src="/images/dots.png"
           alt="bottom dots"
-        />
-        <img
-          className=" sm:absolute -top-16 -z-10 -right-16 w-72"
+        /> */}
+        {/* <img
+          className="sm:absolute -top-16 -z-10 -right-16 w-72"
           src="/images/dots.png"
           alt="top dots"
-        />
-        {/* <h1 className="text-white font-bold text-3xl text-left">I am Vera 🖐</h1> */}
+        /> */}
         <div className="w-full flex flex-col lg:flex-row bg-darkest px-0 py-14 rounded-lg">
           <div className="flex w-full lg:w-2/6 justify-center lg:items-start box-border pb-14 lg:pb-0">
             <div className="w-48 h-48 bg-text-primary rounded-full overflow-hidden ">
               <img
+                alt="profile image"
                 className="w-full h-full object-cover"
                 src="https://images.pexels.com/photos/2179205/pexels-photo-2179205.jpeg?auto=compress&cs=tinysrgb&w=600"
-                // src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt=""
               />
             </div>
           </div>
-          <div className="flex flex-col text-left w-full lg:w-4/6 border-l-0 lg:border-l-2 border-l-text-secondary border-t-2 lg:border-t-0 border-t-text-secondary box-border pl-14 pr-14 lg:pl-14 lg:pr-10">
-            <h2 className="text-3xl font-bold text-text-primary mt-10 md:mt-0">
+          <div className="flex flex-col text-left w-full lg:w-4/6 border-l-0 lg:border-l-2 border-l-darkless border-t-2 lg:border-t-0 border-t-darkless box-border pl-10 pr-10 lg:pl-14 lg:pr-10">
+            <h2 className="text-3xl font-bold text-text-primary mt-10 lg:mt-0">
               About me
             </h2>
             <p className=" text-text-secondary text-xl font-light mt-5">
@@ -85,12 +84,6 @@ const About = () => {
             />
           </div>
         </div>
-        <div></div>
-        {/* <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                    <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-                        <h2 className="text-2xl font-bold text-gray-900">Collections</h2>
-                    </div>
-                </div> */}
       </motion.div>
     </div>
   );

@@ -14,6 +14,8 @@ module.exports = {
         plum: "#362952",
         "dark-plum": "#231b36",
         darkless: "#22303C",
+        insta:
+          "radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)",
         "text-primary": "#ffff",
         "text-secondary": "#8899A6",
         "text-semiprimary": "rgba(44, 255, 187, 0.6)",
@@ -40,11 +42,9 @@ module.exports = {
         dream: ["Dreamland-0vWd", "cursive"],
         vibes: ["GreatVibes-Regular", "cursive"],
       },
-      background: {
-        borderama: {
-          background:
-            "linear-gradient(329deg, rgba(199,126,255,1) 39%, rgba(44,255,187,1) 100%)",
-        },
+      backgroundImage: {
+        insta:
+          "radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)",
       },
       dropShadow: {
         "12xl": "0 15px 15px rgba(0, 0, 0, 0.25)",
@@ -52,6 +52,7 @@ module.exports = {
           "0 35px 35px rgba(0, 0, 0, 0.25)",
           "0 45px 65px rgba(0, 0, 0, 0.15)",
         ],
+        "5xl": ["0 5px 6px rgb(0 0 0 / 0.9)", "0 2px 2px rgb(0 0 0 / 0.3)"],
       },
     },
   },
