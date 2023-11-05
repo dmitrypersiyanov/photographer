@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Checkmark } from "../../icons/icons";
-import { motion, useAnimation } from "framer-motion"; //hooks for framer motion
-import { useInView } from "react-intersection-observer"; //hook from react-intersection-observer
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 const Services = () => {
   const control = useAnimation();
@@ -12,7 +12,7 @@ const Services = () => {
       opacity: 1,
       transition: {
         when: "beforeChildren",
-        staggerChildren: 0.08,
+        staggerChildren: 0.1,
       },
     },
     hidden: {
@@ -46,7 +46,7 @@ const Services = () => {
   return (
     <div
       id="services"
-      className="w-full h-auto bg-darkest pt-10 sm:pt-20 md:pt-32 flex flex-col gap-10 px-5 box-border md:px-20 pb-10 md:pb-20 border-b-0 border-gray-400 border-dashed"
+      className="w-full h-auto bg-darkest pt-10 sm:pt-20 md:pt-32 flex flex-col gap-10 px-5 box-border md:px-20 pb-10 border-b-0 border-gray-400 border-dashed"
     >
       <div className="bg-darkest flex flex-col justify-center w-full lg:w-[800px] mx-auto">
         <h2 className="text-4xl font-bold text-fancy text-left md:text-center">

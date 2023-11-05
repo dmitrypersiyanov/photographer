@@ -41,6 +41,7 @@ module.exports = {
       fontFamily: {
         dream: ["Dreamland-0vWd", "cursive"],
         vibes: ["GreatVibes-Regular", "cursive"],
+        tangerine: ["Tangerine-Bold", "cursive"],
       },
       backgroundImage: {
         insta:
@@ -53,6 +54,10 @@ module.exports = {
           "0 45px 65px rgba(0, 0, 0, 0.15)",
         ],
         "5xl": ["0 5px 6px rgb(0 0 0 / 0.9)", "0 2px 2px rgb(0 0 0 / 0.3)"],
+      },
+      transitionDelay: {
+        900: "900ms",
+        1100: "1100ms",
       },
     },
   },

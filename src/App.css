@@ -6,3 +6,9 @@
   font-family: "GreatVibes-Regular"; /*Can be any text*/
   src: url("./fonts/GreatVibes-Regular.ttf");
 }
+
+@font-face {
+  font-family: "Tangerine-Bold"; /*Can be any text*/
+  src: local("Tangerine-Bold"),
+    url("../src/fonts/Tangerine-Bold.ttf") format("truetype");
+}

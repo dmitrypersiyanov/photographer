@@ -1,129 +1,191 @@
 export const sessions = [
-    {
-        id: 1,
-        title: 'Ladies Formal',
-        details: `Plan pricing starts at 500 contacts. Select your audience size to calculate your price. 
+  {
+    id: 1,
+    title: "Ladies Formal",
+    details: `Plan pricing starts at 500 contacts. Select your audience size to calculate your price. 
         The monthly email send limit for Standard plans is 12 times your maximum contact count.
         Plan pricing starts at 500 contacts. Select your audience size to calculate your price. 
         The monthly email send limit for Standard plans is 12 times your maximum contact count`,
-        rate: 399,
-        extraHourRate: 149,
-        photosRaw: 100,
-        photosTuned: 20,
-        sessionLength: 2,
-        moodBoard: true,
-        ideas: true
-    },
-    {
-        id: 2,
-        title: 'Ladies Casual',
-        details: `Plan pricing starts at 500 contacts. Select your audience size to calculate your price. 
+    rate: 399,
+    extraHourRate: 149,
+    photosRaw: 100,
+    photosTuned: 20,
+    sessionLength: 2,
+    moodBoard: true,
+    ideas: true,
+  },
+  {
+    id: 2,
+    title: "Ladies Casual",
+    details: `Plan pricing starts at 500 contacts. Select your audience size to calculate your price. 
         The monthly email send limit for Standard plans is 12 times your maximum contact count.
         The monthly email send limit for Standard plans is 12 times your maximum contact count.
         The monthly email send limit for Standard plans is 12 times your maximum contact count.
         Plan pricing starts at 500 contacts. Select your audience size to calculate your price. 
         The monthly email send limit for Standard plans is 12 times your maximum contact count`,
-        rate: 359,
-        extraHourRate: 129,
-        photosRaw: 100,
-        photosTuned: 20,
-        sessionLength: 2,
-        moodBoard: true,
-        ideas: true
-    },
-    {
-        id: 3,
-        title: 'Ladies Pregnant',
-        details: `Plan pricing starts at 500 contacts. Select your audience size to calculate your price. 
+    rate: 359,
+    extraHourRate: 129,
+    photosRaw: 100,
+    photosTuned: 20,
+    sessionLength: 2,
+    moodBoard: true,
+    ideas: true,
+  },
+  {
+    id: 3,
+    title: "Ladies Pregnant",
+    details: `Plan pricing starts at 500 contacts. Select your audience size to calculate your price. 
         The monthly email send limit for Standard plans is 12 times your maximum contact count.
         The monthly email send limit for Standard plans is 12 times your maximum contact count.
         The monthly email send limit for Standard plans is 12 times your maximum contact count`,
-        rate: 599,
-        extraHourRate: 199,
-        photosRaw: 125,
-        photosTuned: 30,
-        sessionLength: 2,
-        moodBoard: true,
-        ideas: true
-    },
-    {
-        id: 4,
-        title: 'Ladies Fashion',
-        details: `Plan pricing starts at 500 contacts. Select your audience size to calculate your price. 
+    rate: 599,
+    extraHourRate: 199,
+    photosRaw: 125,
+    photosTuned: 30,
+    sessionLength: 2,
+    moodBoard: true,
+    ideas: true,
+  },
+  {
+    id: 4,
+    title: "Ladies Fashion",
+    details: `Plan pricing starts at 500 contacts. Select your audience size to calculate your price. 
         The monthly email send limit for Standard plans is 12 times your maximum contact count.
         The monthly email send limit for Standard plans is 12 times your maximum contact count`,
-        rate: 599,
-        extraHourRate: 179,
-        photosRaw: 110,
-        photosTuned: 25,
-        sessionLength: 2,
-        moodBoard: true,
-        ideas: true
-    },
-    {
-        id: 5,
-        title: 'Couples',
-        details: `Plan pricing starts at 500 contacts. 
+    rate: 599,
+    extraHourRate: 179,
+    photosRaw: 110,
+    photosTuned: 25,
+    sessionLength: 2,
+    moodBoard: true,
+    ideas: true,
+  },
+  {
+    id: 5,
+    title: "Couples",
+    details: `Plan pricing starts at 500 contacts. 
         Select your audience size to calculate your price. 
         The monthly email send limit for Standard plans is 12 times your maximum contact count.`,
-        rate: 399,
-        extraHourRate: 149,
-        photosRaw: 100,
-        photosTuned: 20,
-        sessionLength: 2,
-        moodBoard: true,
-        ideas: true
-    },
-    {
-        id: 6,
-        title: 'Family',
-        details: `Plan pricing starts at 500 contacts. 
+    rate: 399,
+    extraHourRate: 149,
+    photosRaw: 100,
+    photosTuned: 20,
+    sessionLength: 2,
+    moodBoard: true,
+    ideas: true,
+  },
+  {
+    id: 6,
+    title: "Family",
+    details: `Plan pricing starts at 500 contacts. 
         Select your audience size to calculate your price. 
         The monthly email send limit for Standard plans is 12 times your maximum contact count.
         Plan pricing starts at 500 contacts. 
         Select your audience size to calculate your price.`,
-        rate: 799,
-        extraHourRate: 249,
-        photosRaw: 150,
-        photosTuned: 30,
-        sessionLength: 3,
-        moodBoard: true,
-        ideas: true
-    }
+    rate: 799,
+    extraHourRate: 249,
+    photosRaw: 150,
+    photosTuned: 30,
+    sessionLength: 3,
+    moodBoard: true,
+    ideas: true,
+  },
 ];
 
 export const accordionData = [
-    {
-        title: 'How do I apply for deferred entry?',
-        description: `You can select a ‘deferred’ start date for your chosen course
-        when you apply, but it’s important to contact the uni or college before submitting 
-        your application to make sure they are happy to accept a deferred application.`
-    },
-    {
-        title: 'How do I apply?',
-        description: `You’ll then be taken to your UCAS Hub dashboard, 
-        where you’ll see a tile called ‘Your application’. Simply click ‘Start’ to begin your application.`
-    },
-    {
-        title: 'What are entry requirements?',
-        description: `Entry requirements vary between universities and colleges – a full list of universities 
-        and colleges and their minimum entry criteria can be found in our search tool. If you are unsure you 
-        meet a university/college's criteria, it is best to contact their admissions team for further guidance`
-    },
-    {
-        title: 'What is the UCAS Tariff?',
-        description: `The UCAS Tariff is a way of allocating points to qualifications. Not all qualifications 
-        attract UCAS Tariff points for various reasons. The university or college you're interested in may 
-        accept your qualifications as an appropriate entry route, even if they don't attract UCAS Tariff points`
-    },
-    {
-        title: 'Where can I find out about funding?',
-        description: `The reference process will vary depending on how you choose to apply; you can either register 
-        and apply through a school, college or centre that is registered with UCAS, or apply as an individual`
-    },
-    {
-        title: 'Where can I find out about funding?',
-        description: `The reference process will vary depending on how you choose to apply; you can either register 
-        and apply through a school, college or centre that is registered with UCAS, or apply as an individual`
-    }
+  {
+    title: "How to make an appointment?",
+    description: `Lorem ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum
+    ipsum lorem ipsum lorem ipsum ipsum lorem.`,
+  },
+  {
+    title: "How long is a session?",
+    description: `Lorem ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum
+    ipsum lorem ipsum lorem ipsum ipsum lorem.`,
+  },
+  {
+    title: "What do I need to take with me?",
+    description: `Lorem ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum
+    ipsum lorem ipsum lorem ipsum ipsum lorem.`,
+  },
+  {
+    title: "Do you work during the weekends?",
+    description: `Lorem ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum
+    ipsum lorem ipsum lorem ipsum ipsum lorem.`,
+  },
+  {
+    title: "How to find a good location?",
+    description: `Lorem ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum
+    ipsum lorem ipsum lorem ipsum ipsum lorem.`,
+  },
+  {
+    title: "Do you have an indoor studio?",
+    description: `Lorem ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum
+    ipsum lorem ipsum lorem ipsum ipsum lorem.`,
+  },
 ];
+
+export const portfolio = {
+  casual: [
+    {
+      id: 1,
+      url: "https://images.pexels.com/photos/1090387/pexels-photo-1090387.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    },
+    {
+      id: 2,
+      url: "https://images.pexels.com/photos/5256142/pexels-photo-5256142.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    },
+    {
+      id: 3,
+      url: "https://images.pexels.com/photos/8158583/pexels-photo-8158583.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load",
+    },
+    {
+      id: 4,
+      url: "https://images.pexels.com/photos/1090408/pexels-photo-1090408.jpeg?auto=compress&cs=tinysrgb&w=600",
+    },
+    {
+      id: 5,
+      url: "https://images.pexels.com/photos/2409681/pexels-photo-2409681.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    },
+  ],
+  fashion: [
+    {
+      id: 6,
+      url: "https://images.pexels.com/photos/2229490/pexels-photo-2229490.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    },
+    {
+      id: 7,
+      url: "https://images.pexels.com/photos/923210/pexels-photo-923210.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    },
+    {
+      id: 8,
+      url: "https://images.pexels.com/photos/707377/pexels-photo-707377.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    },
+    {
+      id: 9,
+      url: "https://images.pexels.com/photos/949670/pexels-photo-949670.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    },
+  ],
+  couples: [
+    {
+      id: 10,
+      url: "https://images.pexels.com/photos/1572219/pexels-photo-1572219.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    },
+    {
+      id: 11,
+      url: "https://images.pexels.com/photos/930676/pexels-photo-930676.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    },
+    {
+      id: 12,
+      url: "https://images.pexels.com/photos/773124/pexels-photo-773124.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    },
+    {
+      id: 13,
+      url: "https://images.pexels.com/photos/1198839/pexels-photo-1198839.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    },
+    {
+      id: 14,
+      url: "https://images.pexels.com/photos/1024970/pexels-photo-1024970.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    },
+  ],
+};

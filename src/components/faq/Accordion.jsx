@@ -1,14 +1,34 @@
-import React, { useState } from "react";
-import { QuestionMark } from "../../icons/icons";
-import { ChevronUp } from "../../icons/icons";
+import React, { useState, useEffect } from "react";
 import { ChevronDown } from "../../icons/icons";
-import { Camera } from "../../icons/icons";
-import { Question } from "../../icons/icons";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 const Accordion = ({ title, description }) => {
+  const control = useAnimation();
+  const [ref, inView] = useInView();
+
+  const variants = {
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+    hidden: { opacity: 0, y: 100 },
+  };
+
+  useEffect(() => {
+    if (inView) {
+      control.start("visible");
+    } else {
+      control.start("hidden");
+    }
+  }, [control, inView]);
+
   const [active, setActive] = useState(false);
   return (
-    <div className="w-full mx-auto shadow-md">
+    <motion.div
+      ref={ref}
+      variants={variants}
+      animate={control}
+      initial="hidden"
+      className="w-full mx-auto shadow-md"
+    >
       <div
         onClick={() => setActive(!active)}
         className={`${
@@ -17,8 +37,6 @@ const Accordion = ({ title, description }) => {
             : "bg-darker rounded-lg"
         } transition-all duration-500 hover:rounded-bl-none hover:rounded-br-none hover:bg-darker py-5 px-5 sm:px-8 group cursor-pointer flex items-center justify-start gap-5`}
       >
-        {/* <span className='pt-0.5'><QuestionMark/></span> */}
-        {/* <span className='pt-0.5'><Camera/></span> */}
         <p
           className={`text-lg ${
             active ? "text-fancy" : "text-gray-400"
@@ -42,7 +60,7 @@ const Accordion = ({ title, description }) => {
       >
         <p className="p-5 sm:p-8 font-light text-lg">{description}</p>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

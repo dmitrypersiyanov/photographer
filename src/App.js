@@ -1,41 +1,38 @@
 import "./App.css";
+import { useState } from "react";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
 import Sessions from "./components/sessions/Sessions";
-import ValueProposition from "./components/proposition/ValueProposition";
 import Contact from "./components/contact/Contact";
 import Instagram from "./components/portfolio/instagram/Instagram";
-import Footer from "./components/footer/Footer";
 import Faq from "./components/faq/Faq";
-import { useRef } from "react";
+import Modal from "./components/modal/Modal";
+import Footer from "./components/footer/Footer";
 
 function App() {
-  // const servicesRef = useRef();
-  // const portfolioRef = useRef();
-  const contactRef = useRef();
-  // const ratesRef = useRef();
-  // const aboutRef = useRef();
-  // const faqRef = useRef();
-  // const homeRef = useRef();
-  // const howRef = useRef();
+  const [modal, setModal] = useState(false);
+
+  const toggleModal = () => {
+    setModal(!modal);
+  };
 
   return (
     <div className="App">
       <div>
-        <Navbar />
+        <Modal toggleModal={toggleModal} modal={modal} />
+        <Navbar toggleModal={toggleModal} modal={modal} />
         <Home />
         <Services />
         <Portfolio />
         <Instagram />
-        {/* <ValueProposition /> */}
         <Sessions />
         <Faq />
         <Contact />
         <About />
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </div>
   );

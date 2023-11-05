@@ -1,13 +1,17 @@
 import React, { useEffect } from "react";
-import { motion, useAnimation } from "framer-motion"; //hooks for framer motion
-import { useInView } from "react-intersection-observer"; //hook from react-intersection-observer
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 const Instagram = () => {
   const control = useAnimation();
   const [ref, inView] = useInView();
 
   const variants = {
-    visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: { duration: 0.5, delay: 0.2 },
+    },
     hidden: { opacity: 0, scale: 0 },
   };
 

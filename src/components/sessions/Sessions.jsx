@@ -17,7 +17,7 @@ const Sessions = () => {
     <>
       <div
         id="rates"
-        className="w-full bg-darkest pb-10 md:pb-20 px-5 md:px-20 lg:px-20 pt-16 md:pt-20"
+        className="w-full bg-darkest pb-10 md:pb-10 px-5 md:px-20 lg:px-20 pt-32"
       >
         <h2 className="text-fancy text-4xl font-bold md:text-center text-left pr-10">
           Choose your option
@@ -117,7 +117,6 @@ const Sessions = () => {
               {currentSession.title}
             </h2>
             <div className="flex flex-col">
-              {/* <div className="text-gray-500 -mb-1 font-light text-md">Starts at</div> */}
               <div className="text-gray-900 mb-5 text-4xl font-bold">
                 ${currentSession.rate}
               </div>
