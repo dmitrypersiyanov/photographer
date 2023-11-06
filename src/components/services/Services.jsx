@@ -34,17 +34,6 @@ const Services = () => {
     },
   };
 
-  const itemSm = {
-    visible: {
-      opacity: 1,
-      // y: 0,
-    },
-    hidden: {
-      opacity: 0,
-      // y: 200,
-    },
-  };
-
   useEffect(() => {
     if (inView) {
       control.start("visible");
@@ -70,169 +59,85 @@ const Services = () => {
         </p>
       </div>
 
-      <div className="hidden md:block">
-        <motion.div
-          ref={ref}
-          variants={list}
-          initial="hidden"
-          animate={control}
-          className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 bg-darkest w-full lg:w-[800px] mx-auto mt-0 pt-0 pb-0 md:py-0 gap-5"
-        >
-          <div className="flex-col flex gap-5">
-            <motion.div
-              variants={item}
-              className="flex flex-col bg-darker w-full h-32 sm:h-40 p-5 rounded-lg hover:bg-darkest border-dashed border-transparent transition-all duration-300 hover:border-dashed border-2 hover:border-fancy"
-            >
-              <Checkmark />
-              <h3 className="text-white text-left mt-auto font-light text-lg">
-                Ladies (formal)
-              </h3>
-            </motion.div>
-            <motion.div
-              variants={item}
-              className="flex flex-col bg-darker w-full h-32 sm:h-40 p-5 rounded-lg hover:bg-darkest border-transparent border-dashed transition-all duration-300 hover:border-dashed border-2 hover:border-fancy"
-            >
-              <Checkmark />
-              <h3 className="text-white text-left mt-auto font-light text-lg">
-                Ladies (casual)
-              </h3>
-            </motion.div>
-          </div>
+      <motion.div
+        ref={ref}
+        variants={list}
+        initial="hidden"
+        animate={control}
+        className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 bg-darkest w-full lg:w-[800px] mx-auto mt-0 pt-0 pb-0 md:py-0 gap-5"
+      >
+        <div className="flex-col flex gap-5">
+          <motion.div
+            variants={item}
+            className="flex flex-col bg-darker w-full h-32 sm:h-40 p-5 rounded-lg hover:bg-darkest border-dashed border-transparent transition-all duration-300 hover:border-dashed border-2 hover:border-fancy"
+          >
+            <Checkmark />
+            <h3 className="text-white text-left mt-auto font-light text-lg">
+              Ladies (formal)
+            </h3>
+          </motion.div>
+          <motion.div
+            variants={item}
+            className="flex flex-col bg-darker w-full h-32 sm:h-40 p-5 rounded-lg hover:bg-darkest border-transparent border-dashed transition-all duration-300 hover:border-dashed border-2 hover:border-fancy"
+          >
+            <Checkmark />
+            <h3 className="text-white text-left mt-auto font-light text-lg">
+              Ladies (casual)
+            </h3>
+          </motion.div>
+        </div>
 
-          <div className="flex-col flex gap-5">
-            <motion.div
-              variants={item}
-              className="flex flex-col bg-darker w-full h-32 sm:h-40 p-5 rounded-lg hover:bg-darkest border-dashed border-transparent transition-all duration-300 hover:border-dashed border-2 hover:border-fancy"
-            >
-              <Checkmark />
-              <h3 className="text-white text-left mt-auto font-light text-lg">
-                Ladies (pregnant)
-              </h3>
-            </motion.div>
-            <motion.div
-              variants={item}
-              className="flex flex-col bg-darker w-full h-32 sm:h-40 p-5 rounded-lg hover:bg-darkest border-dashed border-transparent transition-all duration-300 hover:border-dashed border-2 hover:border-fancy"
-            >
-              <Checkmark />
-              <h3 className="text-white text-left mt-auto font-light text-lg">
-                Ladies (business)
-              </h3>
-            </motion.div>
-            <motion.div
-              variants={item}
-              className="flex flex-col bg-darker w-full h-32 sm:h-40 p-5 rounded-lg hover:bg-darkest border-dashed border-transparent transition-all duration-300 hover:border-dashed border-2 hover:border-fancy"
-            >
-              <Checkmark />
-              <h3 className="text-white text-left mt-auto font-light text-lg">
-                Couples
-              </h3>
-            </motion.div>
-          </div>
+        <div className="flex-col flex gap-5">
+          <motion.div
+            variants={item}
+            className="flex flex-col bg-darker w-full h-32 sm:h-40 p-5 rounded-lg hover:bg-darkest border-dashed border-transparent transition-all duration-300 hover:border-dashed border-2 hover:border-fancy"
+          >
+            <Checkmark />
+            <h3 className="text-white text-left mt-auto font-light text-lg">
+              Ladies (pregnant)
+            </h3>
+          </motion.div>
+          <motion.div
+            variants={item}
+            className="flex flex-col bg-darker w-full h-32 sm:h-40 p-5 rounded-lg hover:bg-darkest border-dashed border-transparent transition-all duration-300 hover:border-dashed border-2 hover:border-fancy"
+          >
+            <Checkmark />
+            <h3 className="text-white text-left mt-auto font-light text-lg">
+              Ladies (business)
+            </h3>
+          </motion.div>
+          <motion.div
+            variants={item}
+            className="flex flex-col bg-darker w-full h-32 sm:h-40 p-5 rounded-lg hover:bg-darkest border-dashed border-transparent transition-all duration-300 hover:border-dashed border-2 hover:border-fancy"
+          >
+            <Checkmark />
+            <h3 className="text-white text-left mt-auto font-light text-lg">
+              Couples
+            </h3>
+          </motion.div>
+        </div>
 
-          <div className="flex-col flex gap-5">
-            <motion.div
-              variants={item}
-              className="flex flex-col bg-darker w-full h-32 sm:h-40 p-5 rounded-lg hover:bg-darkest border-dashed border-transparent transition-all duration-300 hover:border-dashed border-2 hover:border-fancy"
-            >
-              <Checkmark />
-              <h3 className="text-white text-left mt-auto font-light text-lg">
-                Man (formal)
-              </h3>
-            </motion.div>
-            <motion.div
-              variants={item}
-              className="flex flex-col bg-darker w-full h-32 sm:h-40 p-5 rounded-lg hover:bg-darkest border-dashed border-transparent transition-all duration-300 hover:border-dashed border-2 hover:border-fancy"
-            >
-              <Checkmark />
-              <h3 className="text-white text-left mt-auto font-light text-lg">
-                Man (casual)
-              </h3>
-            </motion.div>
-          </div>
-        </motion.div>
-      </div>
-
-      <div className="md:hidden">
-        <motion.div
-          ref={ref}
-          variants={list}
-          initial="hidden"
-          animate={control}
-          className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 bg-darkest w-full lg:w-[800px] mx-auto mt-0 pt-0 pb-0 md:py-0 gap-5"
-        >
-          <div className="flex-col flex gap-5">
-            <motion.div
-              variants={itemSm}
-              className="flex flex-col bg-darker w-full h-32 sm:h-40 p-5 rounded-lg hover:bg-darkest border-dashed border-transparent transition-all duration-300 hover:border-dashed border-2 hover:border-fancy"
-            >
-              <Checkmark />
-              <h3 className="text-white text-left mt-auto font-light text-lg">
-                Ladies (formal)
-              </h3>
-            </motion.div>
-            <motion.div
-              variants={itemSm}
-              className="flex flex-col bg-darker w-full h-32 sm:h-40 p-5 rounded-lg hover:bg-darkest border-transparent border-dashed transition-all duration-300 hover:border-dashed border-2 hover:border-fancy"
-            >
-              <Checkmark />
-              <h3 className="text-white text-left mt-auto font-light text-lg">
-                Ladies (casual)
-              </h3>
-            </motion.div>
-          </div>
-
-          <div className="flex-col flex gap-5">
-            <motion.div
-              variants={itemSm}
-              className="flex flex-col bg-darker w-full h-32 sm:h-40 p-5 rounded-lg hover:bg-darkest border-dashed border-transparent transition-all duration-300 hover:border-dashed border-2 hover:border-fancy"
-            >
-              <Checkmark />
-              <h3 className="text-white text-left mt-auto font-light text-lg">
-                Ladies (pregnant)
-              </h3>
-            </motion.div>
-            <motion.div
-              variants={itemSm}
-              className="flex flex-col bg-darker w-full h-32 sm:h-40 p-5 rounded-lg hover:bg-darkest border-dashed border-transparent transition-all duration-300 hover:border-dashed border-2 hover:border-fancy"
-            >
-              <Checkmark />
-              <h3 className="text-white text-left mt-auto font-light text-lg">
-                Ladies (business)
-              </h3>
-            </motion.div>
-            <motion.div
-              variants={itemSm}
-              className="flex flex-col bg-darker w-full h-32 sm:h-40 p-5 rounded-lg hover:bg-darkest border-dashed border-transparent transition-all duration-300 hover:border-dashed border-2 hover:border-fancy"
-            >
-              <Checkmark />
-              <h3 className="text-white text-left mt-auto font-light text-lg">
-                Couples
-              </h3>
-            </motion.div>
-          </div>
-
-          <div className="flex-col flex gap-5">
-            <motion.div
-              variants={itemSm}
-              className="flex flex-col bg-darker w-full h-32 sm:h-40 p-5 rounded-lg hover:bg-darkest border-dashed border-transparent transition-all duration-300 hover:border-dashed border-2 hover:border-fancy"
-            >
-              <Checkmark />
-              <h3 className="text-white text-left mt-auto font-light text-lg">
-                Man (formal)
-              </h3>
-            </motion.div>
-            <motion.div
-              variants={itemSm}
-              className="flex flex-col bg-darker w-full h-32 sm:h-40 p-5 rounded-lg hover:bg-darkest border-dashed border-transparent transition-all duration-300 hover:border-dashed border-2 hover:border-fancy"
-            >
-              <Checkmark />
-              <h3 className="text-white text-left mt-auto font-light text-lg">
-                Man (casual)
-              </h3>
-            </motion.div>
-          </div>
-        </motion.div>
-      </div>
+        <div className="flex-col flex gap-5">
+          <motion.div
+            variants={item}
+            className="flex flex-col bg-darker w-full h-32 sm:h-40 p-5 rounded-lg hover:bg-darkest border-dashed border-transparent transition-all duration-300 hover:border-dashed border-2 hover:border-fancy"
+          >
+            <Checkmark />
+            <h3 className="text-white text-left mt-auto font-light text-lg">
+              Man (formal)
+            </h3>
+          </motion.div>
+          <motion.div
+            variants={item}
+            className="flex flex-col bg-darker w-full h-32 sm:h-40 p-5 rounded-lg hover:bg-darkest border-dashed border-transparent transition-all duration-300 hover:border-dashed border-2 hover:border-fancy"
+          >
+            <Checkmark />
+            <h3 className="text-white text-left mt-auto font-light text-lg">
+              Man (casual)
+            </h3>
+          </motion.div>
+        </div>
+      </motion.div>
     </div>
   );
 };
