@@ -121,7 +121,7 @@ const Contact = ({ contactRef }) => {
     <>
       <div
         id="contact"
-        // ref={contactRef}
+        ref={contactRef}
         className="grid grid-cols-1 md:grid-cols-2 "
       >
         <div className="bg-white p-10 sm:px-14 lg:px-20 py-32">

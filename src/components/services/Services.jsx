@@ -12,10 +12,7 @@ const Services = () => {
       opacity: 1,
       transition: {
         when: "beforeChildren",
-        // delayChildren: 0.5,
         staggerChildren: 0.4,
-        // stiffness: 900,
-        // ease: "linear",
       },
     },
     hidden: {
