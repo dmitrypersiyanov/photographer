@@ -33,14 +33,17 @@ const Instagram = () => {
         initial="hidden"
         className="w-full lg:w-[700px] h-[170px] md:h-[250px] bg-insta rounded-xl p-5 md:p-7 cursor-pointer"
       >
-        <div className="w-full h-full bg-darkest rounded-xl flex items-center drop-shadow-5xl transition-all duration-500 justify-center">
+        <a
+          href="https://www.instagram.com/"
+          className="w-full h-full bg-darkest rounded-xl flex items-center drop-shadow-5xl transition-all duration-500 justify-center"
+        >
           <h2 className="text-text-primary text-md md:text-xl m-0">
             View more on{" "}
             <span className="font-bold bg-clip-text bg-insta text-transparent">
               INSTAGRAM
             </span>
           </h2>
-        </div>
+        </a>
       </motion.div>
     </div>
   );

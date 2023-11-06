@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { sessions } from "../../data";
+import { Link } from "react-scroll";
 
 const Sessions = () => {
   const [currentTab, setCurrentTab] = useState("Family");
@@ -154,14 +155,16 @@ const Sessions = () => {
                 {currentSession.sessionLength} hours
               </div>
             </div>
-            <a
-              href="#"
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
               className="max-w-max sm:max-w-max text-center mt-5 inline-block rounded-md border-transparent 
                 bg-darkless py-3 px-8 transition-border duration-500 border-dashed border-2 hover:darkest 
-                font-light text-fancy hover:bg-darkest"
+                font-light text-fancy hover:bg-darkest cursor-pointer"
             >
               Contact me
-            </a>
+            </Link>
           </div>
         </div>
       </div>
