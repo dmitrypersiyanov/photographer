@@ -3,7 +3,7 @@ const Modal = ({ modal, toggleModal }) => {
     <div
       className={`${
         modal ? "h-screen" : "h-0 -z-10"
-      } fixed lg:hidden z-30 px-14 sm:px-24 flex flex-col gap-4 justify-center transition-h duration-700 w-full h-vh bg-darkless top-0 bottom-0 right-0 left-0`}
+      } fixed lg:hidden z-30 px-14 sm:px-24 flex flex-col gap-4 justify-center transition-h duration-700 w-full h-vh bg-insta top-0 bottom-0 right-0 left-0`}
     >
       <a
         href="#portfolio"
