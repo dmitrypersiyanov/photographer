@@ -28,7 +28,7 @@ const Portfolio = () => {
                 alt="casual"
                 src={item.url}
                 className={`${
-                  item.id == "5"
+                  item.id === 5
                     ? "pointer-events-none lg:pointer-events-auto hidden hover:cursor-pointer md:block w-full h-[265px] sm:h-full rounded-lg md:col-span-2 object-cover md:row-span-2 shadow-sm lg:col-start-1 lg:row-start-1"
                     : "pointer-events-none lg:pointer-events-auto md:hover:cursor-pointer w-full h-[265px] sm:h-full rounded-lg object-cover"
                 }`}
@@ -107,8 +107,8 @@ const Portfolio = () => {
                 alt="couples"
                 src={item.url}
                 className={`${
-                  item.id == "10"
-                    ? "pointer-events-none lg:pointer-events-auto md:hover:cursor-pointer hidden sm:block w-full h-[265px] sm:h-full rounded-lg md:col-span-2 shadow-sm lg:col-start-3 md:row-span-2 lg:row-start-1"
+                  item.id === 10
+                    ? "pointer-events-none lg:pointer-events-auto hidden md:block hover:cursor-pointer w-full h-[265px] sm:h-full rounded-lg  object-cover md:col-span-2 shadow-sm lg:col-start-3 md:row-span-2 lg:row-start-1"
                     : "pointer-events-none lg:pointer-events-auto md:hover:cursor-pointer w-full h-[265px] sm:h-full rounded-lg object-cover"
                 }`}
               />
