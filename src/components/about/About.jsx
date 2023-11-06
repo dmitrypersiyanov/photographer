@@ -16,7 +16,7 @@ const About = () => {
     },
     hidden: {
       opacity: 0,
-      scale: 0,
+      scale: 0.7,
       // x: 300
     },
   };
