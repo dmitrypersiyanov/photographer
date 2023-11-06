@@ -9,7 +9,7 @@ const Portfolio = () => {
   return (
     <div
       id="portfolio"
-      className="pb-32 px-5 md:px-20 pt-32 md:pt-32 lg:px-20 bg-darkest"
+      className="pb-32 px-5 md:px-20 pt-24 md:pt-32 lg:px-20 bg-darkest"
     >
       <h2 className="text-fancy text-4xl font-bold md:text-center text-left pr-10">
         Check out my portfolio

@@ -22,6 +22,17 @@ const Home = () => {
       },
     },
   };
+  const hero = {
+    visible: {
+      x: 0,
+      opacity: 1,
+      transition: { duration: 0.7 },
+    },
+    hidden: {
+      x: 400,
+      opacity: 0,
+    },
+  };
 
   const item = {
     visible: {
@@ -52,11 +63,13 @@ const Home = () => {
         <h1 className="text-4xl mt-0 sm:text-5xl md:text-6xl font-bold tracking-tight text-fancy text-left">
           Hi, welcome to my portfolio
         </h1>
-        <img
-          src="https://images.pexels.com/photos/1198839/pexels-photo-1198839.jpeg?auto=compress&cs=tinysrgb&w=1200"
-          className="w-full h-auto block sm:hidden rounded-lg mt-10"
-          alt="beach"
-        />
+        <motion.div variants={hero} initial="hidden" animate="visible">
+          <img
+            src="https://images.pexels.com/photos/1198839/pexels-photo-1198839.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            className="w-full h-auto block sm:hidden rounded-lg mt-10"
+            alt="beach"
+          />
+        </motion.div>
         <p className="mt-8 text-xl text-gray-100 font-thin text-left">
           Check out my works and feel free to get in touch whenever you decide
           to hire me for your next photoshooting

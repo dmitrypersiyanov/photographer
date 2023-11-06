@@ -12,7 +12,10 @@ const Services = () => {
       opacity: 1,
       transition: {
         when: "beforeChildren",
-        staggerChildren: 0.1,
+        // delayChildren: 0.5,
+        staggerChildren: 0.4,
+        // stiffness: 900,
+        // ease: "linear",
       },
     },
     hidden: {
@@ -82,7 +85,7 @@ const Services = () => {
           >
             <Checkmark />
             <h3 className="text-white text-left mt-auto font-light text-lg">
-              Ladies (formal)
+              Ladies (casual)
             </h3>
           </motion.div>
         </div>
@@ -94,7 +97,7 @@ const Services = () => {
           >
             <Checkmark />
             <h3 className="text-white text-left mt-auto font-light text-lg">
-              Ladies (formal)
+              Ladies (pregnant)
             </h3>
           </motion.div>
           <motion.div
@@ -103,7 +106,7 @@ const Services = () => {
           >
             <Checkmark />
             <h3 className="text-white text-left mt-auto font-light text-lg">
-              Ladies (formal)
+              Ladies (business)
             </h3>
           </motion.div>
           <motion.div
@@ -112,7 +115,7 @@ const Services = () => {
           >
             <Checkmark />
             <h3 className="text-white text-left mt-auto font-light text-lg">
-              Ladies (formal)
+              Couples
             </h3>
           </motion.div>
         </div>
@@ -124,7 +127,7 @@ const Services = () => {
           >
             <Checkmark />
             <h3 className="text-white text-left mt-auto font-light text-lg">
-              Ladies (formal)
+              Man (formal)
             </h3>
           </motion.div>
           <motion.div
@@ -133,7 +136,7 @@ const Services = () => {
           >
             <Checkmark />
             <h3 className="text-white text-left mt-auto font-light text-lg">
-              Ladies (formal)
+              Man (casual)
             </h3>
           </motion.div>
         </div>

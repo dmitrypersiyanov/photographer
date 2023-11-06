@@ -1,3 +1,7 @@
+body {
+  background-color: #15202b;
+}
+
 @font-face {
   font-family: "Dreamland-0vWd"; /*Can be any text*/
   src: url("./fonts/Dreamland-0vWd.ttf");

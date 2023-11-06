@@ -9,7 +9,7 @@ const Footer = () => {
         offset={-100}
         smooth={true}
         duration={500}
-        className="text-text-primary font-light text-5xl font-dream cursor-pointer"
+        className="text-text-primary font-light text-4xl sm:text-5xl font-dream cursor-pointer"
       >
         Photoronto
       </Link>

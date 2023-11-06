@@ -25,7 +25,7 @@ const Instagram = () => {
   }, [control, inView]);
 
   return (
-    <div className="w-full bg-darkest h-auto py-16 md:py-24 px-5 md:px-20 flex justify-center items-center">
+    <div className="w-full bg-darkest h-auto py-10 md:py-24 px-5 md:px-20 flex justify-center items-center">
       <motion.div
         ref={ref}
         variants={variants}
@@ -34,7 +34,7 @@ const Instagram = () => {
         className="w-full lg:w-[700px] h-[170px] md:h-[250px] bg-insta rounded-xl p-5 md:p-7 cursor-pointer"
       >
         <div className="w-full h-full bg-darkest rounded-xl flex items-center drop-shadow-5xl transition-all duration-500 justify-center">
-          <h2 className="text-text-primary text-lg md:text-xl m-0">
+          <h2 className="text-text-primary text-md md:text-xl m-0">
             View more on{" "}
             <span className="font-bold bg-clip-text bg-insta text-transparent">
               INSTAGRAM

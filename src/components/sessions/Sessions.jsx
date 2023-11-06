@@ -17,7 +17,7 @@ const Sessions = () => {
     <>
       <div
         id="rates"
-        className="w-full bg-darkest pb-10 md:pb-10 px-5 md:px-20 lg:px-20 pt-32"
+        className="w-full bg-darkest pb-10 md:pb-10 px-5 md:px-20 lg:px-20 pt-24 md:pt-32"
       >
         <h2 className="text-fancy text-4xl font-bold md:text-center text-left pr-10">
           Choose your option
