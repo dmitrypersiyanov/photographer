@@ -12,7 +12,7 @@ const Modal = ({ modal, toggleModal }) => {
           modal ? "opacity-1 delay-500" : "opacity-0 delay-100"
         }`}
       >
-        <div className="flex justify-center items-center w-full h-full uppercase text-white font-2xl font-semibold">
+        <div className="flex justify-center items-center w-full h-full uppercase text-white font-2xl font-thin">
           Portfolio
         </div>
       </a>
@@ -23,7 +23,7 @@ const Modal = ({ modal, toggleModal }) => {
           modal ? "opacity-1 delay-700" : "opacity-0 delay-100"
         }`}
       >
-        <div className="flex justify-center items-center w-full h-full uppercase text-white font-2xl font-semibold">
+        <div className="flex justify-center items-center w-full h-full uppercase text-white font-2xl font-thin">
           Rates
         </div>
       </a>
@@ -34,7 +34,7 @@ const Modal = ({ modal, toggleModal }) => {
           modal ? "opacity-1 delay-[900ms]" : "opacity-0 delay-100"
         }`}
       >
-        <div className="flex justify-center items-center w-full h-full uppercase text-white font-2xl font-semibold">
+        <div className="flex justify-center items-center w-full h-full uppercase text-white font-2xl font-thin">
           Contact
         </div>
       </a>

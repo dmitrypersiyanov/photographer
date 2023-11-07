@@ -61,7 +61,7 @@ const Home = () => {
     >
       <div className="bg-darkest p-5 pt-10 sm:p-10 md:p-15 md:pl-24 flex flex-col justify-center">
         <h1 className="text-4xl mt-0 sm:text-5xl md:text-6xl font-bold tracking-tight text-fancy text-left">
-          Hi, welcome to my portfolio
+          Hi, welcome to my photo studio
         </h1>
         <motion.div variants={hero} initial="hidden" animate="visible">
           <img
@@ -71,8 +71,8 @@ const Home = () => {
           />
         </motion.div>
         <p className="mt-8 text-xl text-gray-100 font-thin text-left">
-          Check out my works and feel free to get in touch whenever you decide
-          to hire me for your next photoshooting
+          Check out my work and feel free to get in touch whenever you decide to
+          hire me for your next photoshooting
         </p>
         <Link
           to="contact"

@@ -136,7 +136,7 @@ const Contact = ({ contactRef }) => {
             the form and I will get back to you as soon as I power off my camera
           </p>
           <p class="text-justify font-normal text-darkless text-lg">
-            Thanks for your inquiry. I will be getting in touch soon 🧡
+            Thanks for your inquiry. I will be getting in touch soon 💜
           </p>
           <img
             src="/images/hey.png"
@@ -207,13 +207,12 @@ const Contact = ({ contactRef }) => {
                   placeholder="Tell me about your idea..."
                 ></textarea>
               </div>
-              <a
-                href="#"
+              <button
                 className="sm:max-w-max w-full block rounded-md text-center 
                         py-3 bg-fancy px-8 ml-auto font-regular text-darkest"
               >
                 Send message
-              </a>
+              </button>
             </form>
           </div>
         </section>

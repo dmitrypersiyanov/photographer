@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <div className="h-72 sm:h-96 w-full bg-darker flex font-light text-sm text-white justify-center items-center">
+    <div className="py-20 w-full bg-darker flex font-light text-sm text-white justify-center items-center">
       <Link
         to="home"
         offset={-100}
