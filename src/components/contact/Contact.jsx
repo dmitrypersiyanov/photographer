@@ -129,11 +129,7 @@ const Contact = ({ contactRef }) => {
             Tell me about your photo ideas and reqirements
           </h2>
           <p class="mb-4 lg:mb-6 text-justify font-light text-darkless text-xl">
-            Simply fill in the form and I will get back to you as soon as I
-            power off my camera Simply fill in the form and I will get back to
-            you as soon as I power off my camera Simply fill in the form and I
-            will get back to you as soon as I power off my camera Simply fill in
-            the form and I will get back to you as soon as I power off my camera
+          Simply fill in the form, and I&apos;ll respond promptly once I&apos;m done capturing the perfect shots. Your message is important to me, and I&apos;ll get back to you as soon as possible.
           </p>
           <p class="text-justify font-normal text-darkless text-lg">
             Thanks for your inquiry. I will be getting in touch soon 💜
