@@ -17,7 +17,7 @@ export const sessions = [
   {
     id: 2,
     title: "Ladies Casual",
-    details: `session is ideal for personal use or building a dynamic modeling portfolio. 
+    details: `Session is ideal for personal use or building a dynamic modeling portfolio. 
     This session offers a mix of street and studio photography, capturing relaxed and natural 
     moments. Perfect for young women looking to express their unique style or aspiring models 
     needing versatile shots for applications. Embrace a more informal yet captivating look 

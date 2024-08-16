@@ -57,11 +57,7 @@ const About = () => {
               About me
             </h2>
             <p className=" text-text-secondary text-xl font-light mt-5">
-              I am an enthusiastic, self-motivated, reliable, responsible and
-              hard working person. I am a mature team worker and adaptable to
-              all challenging situations. I am able to work well both in a team
-              environment as well as using own initiative. I am able to work
-              well under pressure and adhere to strict deadlines
+            I am a creative and committed photographer known for my reliability and adaptability. I excel in collaborative environments and take initiative when working solo. Skilled at managing pressure and meeting deadlines, I consistently deliver high-quality results with enthusiasm and dedication.
             </p>
             <span className=" text-text-primary text-lg font-medium mt-5">
               Follow me on Instagram:
